@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir Tools
+
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1 -O Tools/PowerView.ps1
 wget https://raw.githubusercontent.com/NetSPI/PowerUpSQL/master/PowerUpSQL.ps1 -O Tools/PowerUpSQL.ps1
 wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/dotnet%20v3.5%20compiled%20binaries/Rubeus.exe -O Tools/Rubeus.exe
